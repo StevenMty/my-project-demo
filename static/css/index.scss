@@ -1,0 +1,30 @@
+.mty-index{
+	min-width: 1280px;
+	.mty-index-top{
+		display: flex;
+		background-color: #464c5b;
+		.mty-index-top-left{
+			width: 199px;
+			line-height: 60px;
+			color: #fff;
+			font-size: 14px;
+			border-bottom: 1px solid #fff;
+		}
+		.ivu-menu,.ivu-menu-primary,.ivu-menu-horizontal{
+			
+		}
+	}
+	.mty-index-content{
+		display: flex;
+		.mty-index-content-left{
+			.ivu-menu,.ivu-menu-light,.ivu-menu-vertical{
+				width: 200px !important;
+			}
+		}
+		.mty-index-content-right{
+			height: 500px;
+			min-width: 1200px;
+			width: 100%;
+		}
+	}
+}
