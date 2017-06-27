@@ -26,6 +26,12 @@ module.exports = {
     }
   },
   module: {
+    preLoaders: [
+       {
+        test: /iview.src.*?js$/,
+        loader: 'babel'
+      },
+    ],
     rules: [
       {
         test: /\.(js|vue)$/,
